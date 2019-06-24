@@ -8,8 +8,11 @@ const Title = styled.h1`
 `;
 
 const HeaderWrap = styled.header`
-  padding: 4em;
   background: #3f51b5;
+  padding: 15px;
+  @media (min-width: 768px) {
+    padding: 60px;
+  }
 `;
 
 const Header = () => {

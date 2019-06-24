@@ -10,7 +10,9 @@ const Wrap = styled.div`
   background: #eaeaea;
   padding: 40px;
   border: 20px solid #e91e63;
-  margin: 60px;
+  @media (min-width: 768px) {
+    margin: 60px;
+  }
 `;
 const Title = styled.h2`
   color: #e91e63;
